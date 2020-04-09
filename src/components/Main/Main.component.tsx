@@ -10,7 +10,6 @@ const MainComponent: React.FC<BaseProps> = ({
 
 MainComponent.displayName = 'Main';
 
-// TODO pass this value as theme prop
 export const Main = styled(MainComponent)`
     background: ${props => props.theme.main.background};
 `;
